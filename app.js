@@ -20,7 +20,7 @@ const app = express();
 app.get('/', function(req, res){
   const [animal_name, sound] = getAnimal();
   res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.write(`Yash Varma had a farm.<br /> 
+  res.write(`George Orwell had a farm.<br /> 
 E-I-E-I-O<br />
 And on his farm he had a ${ animal_name }.<br />
 E-I-E-I-O<br />
